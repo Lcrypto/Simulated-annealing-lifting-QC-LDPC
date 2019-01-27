@@ -1,8 +1,0 @@
-﻿  main.cpp
-f:\download\simulatedannealingemd\simulatedannealingemd\simulatedannealingemd\.\myLib\emdOptimization.h(54): warning C4091: static : пропускается слева от "Tiii", когда ни одна переменная не объявлена
-E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(200): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
-  f:\download\simulatedannealingemd\simulatedannealingemd\simulatedannealingemd\.\myLib\emdOptimization.h(1082): note: см. ссылку на создание экземпляров функции шаблон при компиляции "std::pair<std::pair<int,int>,int>::pair<std::pair<int,int>,__int64,void,0>(std::pair<std::pair<int,int>,__int64> &&) noexcept"
-  f:\download\simulatedannealingemd\simulatedannealingemd\simulatedannealingemd\.\myLib\emdOptimization.h(1080): note: см. ссылку на создание экземпляров функции шаблон при компиляции "std::pair<std::pair<int,int>,int>::pair<std::pair<int,int>,__int64,void,0>(std::pair<std::pair<int,int>,__int64> &&) noexcept"
-  LINK : не найден или не выполнена сборка F:\download\simulatedAnnealingEMD\simulatedAnnealingEMD\x64\Release\simulatedAnnealingEMD.exe при последней инкрементной компоновке; выполняется полная компоновка
-  simulatedAnnealingEMD.vcxproj -> F:\download\simulatedAnnealingEMD\simulatedAnnealingEMD\x64\Release\simulatedAnnealingEMD.exe
-  simulatedAnnealingEMD.vcxproj -> F:\download\simulatedAnnealingEMD\simulatedAnnealingEMD\x64\Release\simulatedAnnealingEMD.pdb (Full PDB)
