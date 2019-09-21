@@ -56,7 +56,7 @@ For Example:
 simulatedAnnealingEMD.exe -file proto.txt -circulant 500 -upGirth 8 -emd 20 -seed 123 -numberOfMatrices 1 -girth 8
 Proto.txt contain base matrix:
 
-*3 2*
+*3 2 *
 
 *1 0 1*
 
