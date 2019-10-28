@@ -6,7 +6,7 @@ Simulated Annealing Method for Construction of High-Girth QC-LDPC Codes
  
 It construct regular and irregular QC-LDPC codes with  multiple edge type circulants from protograph with required minimal EMD value. Short review (ENG) about Code on the Graph construction related problem http://www.mathnet.ru/php/presentation.phtml?option_lang=rus&presentid=17899.
  
-Simulated annealing superior all currently published algoriths (PEG,QC-PEG, Fossorier-Declercq Improved PEG, Yedidia Hill-Climbing) and  for construction QC-LDPC codes from capability of cycles broken, for detail read paper https://ieeexplore.ieee.org/document/8441303/  https://www.researchgate.net/publication/327194285_Simulated_Annealing_Method_for_Construction_of_High-Girth_QC-LDPC_Codes. With combination of code distance based sieving (for short and moderate code length) it allow to contruct QC codes with very good (probably best for current state of art) coding gain.
+Simulated annealing superior all currently published algoriths (PEG,QC-PEG, Fossorier-Declercq-Vasic Improved PEG, Yedidia Hill-Climbing) and  for construction QC-LDPC codes from capability of cycles broken, for detail read paper https://ieeexplore.ieee.org/document/8441303/  https://www.researchgate.net/publication/327194285_Simulated_Annealing_Method_for_Construction_of_High-Girth_QC-LDPC_Codes. With combination of code distance based sieving (for short and moderate code length) it allow to contruct QC codes with very good (probably best for current state of art) coding gain.
 
 Table I. Minimal value of circulant for regular mother matrix with row number m=3 and column number n with girth 10
 
