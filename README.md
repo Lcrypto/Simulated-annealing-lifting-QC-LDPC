@@ -100,7 +100,7 @@ output:
 
 How to compile:
 
-For Linux: compile source code from 'linux' folder by 'run.sh' compile script. To fast check this algorithm you can use CodeOcean capsule https://codeocean.com/capsule/1267563/.  
+For Linux: compile source code from 'linux' folder by 'run.sh' compile script.  
 
 
 For Windows: compile by MS VS 2015 project at 'simulatedAnnealingEMD' folder. Windows binary file, and shell scripts to run examples of lifting at folder 'simulatedAnnealingEMD/x64/Release'. If you not install MS VS 2015 to run binary file simulatedAnnealingEMD.exe, don't forget to download and install redistributed kit from https://www.microsoft.com/en-us/download/details.aspx?id=48145.
