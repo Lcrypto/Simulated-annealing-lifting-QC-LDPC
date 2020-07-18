@@ -131,8 +131,6 @@ SA method constructed 3x12 regular code with girth 8 less than one hour on multi
 
 
 
-Moreover look like that paper "A. Kharin, A. Dryakhlov, E. Mirokhin, K. Zavertkin, A. Ovinnikov and E. Likhobabin, "Irregular QC-LDPC Codes Generation Based on EMD Maximization Criterion for Protograph," 2020 9th Mediterranean Conference on Embedded Computing (MECO), Budva, Montenegro, 2020, pp. 1-4" used SA lifting method with EMD constrain without citation.
-
 
 
 Summary: SA lifting method still one of the best published QC-LDPC protograph lifting method from "flat" model(pure girth and girth+EMD maximization) of Trapping sets breaking.
