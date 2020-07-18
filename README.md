@@ -128,7 +128,9 @@ Table III. Minimal value of circulant for regular mother matrix with row number 
 
 
 SA method constructed 3x12 regular code with girth 8 less than one hour on multitread (Amd Ryzen 3950x) and less than 21 hours on 1 thread (Intel i7700k), file "12_3_42girth8upGirth6emd0seed11protograph_from_proto.txt_matrix629558.txt", "12_3_42girth8upGirth6emd0seed333protograph_from_proto.txt_matrix828012.txt",  attached to github. 
-SA method still best published QC-LDPC lifting method from flat model of cycles in Tanner-graph.
+
+
+SA method stil best published QC-LDPC protograph lifting method from flat (pure girth and girth+EMD maximization) model of Trapping sets broking.
 
 
 With BR,
