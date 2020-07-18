@@ -111,7 +111,7 @@ P.S. Compare Simulated Annealing lifting for 8 girth with method from paper "A. 
 
 
 
-Table III. Minimal value of circulant for regular mother matrix with row number m=3 and column number n with girth 8 with running time constrain <24 hour
+Table III. Minimal value of circulant for regular mother matrix with row number m=3 and column number n with girth 8 with running time constrain less than 24 hours
 
 |Column number|Simulated annealing|Ovinnikov et al|
 |-------------|-------------------|-------------|
