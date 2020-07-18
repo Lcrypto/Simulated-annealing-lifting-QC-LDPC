@@ -111,9 +111,9 @@ P.S. Compare Simulated Annealing lifting for 8 girth with method from paper "A. 
 
 
 
-Table III. Minimal value of circulant for regular mother matrix with row number m=3 and column number n with girth 8
+Table III. Minimal value of circulant for regular mother matrix with row number m=3 and column number n with girth 8 with running time constrain <24 hour
 
-|Column number|Simulated annealing|Ovinnikov et al without limit|
+|Column number|Simulated annealing|Ovinnikov et al|
 |-------------|-------------------|-------------|
 |4|9|9|
 |5|13|13|
@@ -123,14 +123,22 @@ Table III. Minimal value of circulant for regular mother matrix with row number 
 |9|30|30|
 |10|35|35|
 |11|40|40|
-|12|42|42|
+|12|42|45|
 
 
 
 SA method constructed 3x12 regular code with girth 8 less than one hour on multitread (Amd Ryzen 3950x) and less than 21 hours on 1 thread (Intel i7700k), file "12_3_42girth8upGirth6emd0seed11protograph_from_proto.txt_matrix629558.txt", "12_3_42girth8upGirth6emd0seed333protograph_from_proto.txt_matrix828012.txt",  attached to github. 
 
 
-SA method still best published QC-LDPC protograph lifting method from flat (pure girth and girth+EMD maximization) model of Trapping sets breaking.
+
+Moreover look like that paper "A. Kharin, A. Dryakhlov, E. Mirokhin, K. Zavertkin, A. Ovinnikov and E. Likhobabin, "Irregular QC-LDPC Codes Generation Based on EMD Maximization Criterion for Protograph," 2020 9th Mediterranean Conference on Embedded Computing (MECO), Budva, Montenegro, 2020, pp. 1-4" used our SA lifting method with EMD constrain without citation.
+
+
+
+Summary: SA lifting method still best published QC-LDPC protograph lifting method from flat (pure girth and girth+EMD maximization) model of Trapping sets breaking.
+
+
+
 
 
 With BR,
