@@ -135,7 +135,7 @@ Moreover look like that paper "A. Kharin, A. Dryakhlov, E. Mirokhin, K. Zavertki
 
 
 
-Summary: SA lifting method still best published QC-LDPC protograph lifting method from flat (pure girth and girth+EMD maximization) model of Trapping sets breaking.
+Summary: SA lifting method still one of the best published QC-LDPC protograph lifting method from "flat" model(pure girth and girth+EMD maximization) of Trapping sets breaking.
 
 
 
