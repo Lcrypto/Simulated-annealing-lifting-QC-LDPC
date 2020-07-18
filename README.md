@@ -105,6 +105,32 @@ For Linux: compile source code from 'linux' folder by 'run.sh' compile script.
 
 For Windows: compile by MS VS 2015 project at 'simulatedAnnealingEMD' folder. Windows binary file, and shell scripts to run examples of lifting at folder 'simulatedAnnealingEMD/x64/Release'. If you not install MS VS 2015 to run binary file simulatedAnnealingEMD.exe, don't forget to download and install redistributed kit from https://www.microsoft.com/en-us/download/details.aspx?id=48145.
 
+
+P.S. Compare Simulated Annealing lifting for 8 girth with method from paper "A. Kharin, A. Dryakhlov, E. Mirokhin, K. Zavertkin, A. Ovinnikov and E. Likhobabin, "An Approach to the Generation of Regular QC-LDPC Codes with Girth 8," 2020 9th Mediterranean Conference on Embedded Computing (MECO), Budva, Montenegro, 2020, pp. 1-4".
+
+
+
+
+Table III. Minimal value of circulant for regular mother matrix with row number m=3 and column number n with girth 8
+
+|Column number|Simulated annealing|Ovinnikov et al without limit|
+|-------------|-------------------|-------------|
+|4|9|9|
+|5|13|13|
+|6|18|18|
+|7|21|21|
+|8|25|25|
+|9|30|30|
+|10|35|35|
+|11|50|40|
+|12|42|42|
+
+
+
+SA method constructed 3x12 regular code with girth 8 less than one hour on multitread (Amd Ryzen 3950x) and less than 21 hours on 1 thread (Intel i7700k), file 74889  12_3_42girth6upGirth8emd0seed1111protograph_from_proto.txt_matrix1 attached to github. 
+SA method still best published QC-LDPC lifting method from flat model of cycles in Tanner-graph.
+
+
 With BR,
 Vasiliy.
 
