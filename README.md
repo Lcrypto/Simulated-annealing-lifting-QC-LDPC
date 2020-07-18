@@ -122,7 +122,7 @@ Table III. Minimal value of circulant for regular mother matrix with row number 
 |8|25|25|
 |9|30|30|
 |10|35|35|
-|11|50|40|
+|11|40|40|
 |12|42|42|
 
 
