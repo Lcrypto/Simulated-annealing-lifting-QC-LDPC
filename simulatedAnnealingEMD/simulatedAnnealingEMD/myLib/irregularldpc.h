@@ -1,3 +1,4 @@
+
 /*
 Copyright(c) 2012, Ilya Vorobyev und Vasiliy Usatyuk
 All rights reserved.
@@ -27,8 +28,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 #pragma once
-#include"..\myLib\regularLDPC.h"
-#include"..\myLib\CycleEnum.h"
+#include"regularLDPC.h"
+#include"CycleEnum.h"
 
 
 bool girthAtLeast6Manual(const vector<vector<vector<int> > >& a, ll circulant);
@@ -69,11 +70,11 @@ void readME(vector<vector<vector<int> > >& mtr, istream& in = cin) {
 
 ll getRand(ll mod) {
     while (true) {
-        ll q = RAND_MAX + 1;
+        ll q = RAND_MAX;
         ll x = rand();
         while (q < mod) {
-            q *= (RAND_MAX + 1);
-            x = x * (RAND_MAX + 1) + rand();
+            q *= (RAND_MAX );
+            x = x * (RAND_MAX) + rand();
         }
         if (x <= q - 1 - (q % mod))
             return x % mod;
@@ -150,7 +151,7 @@ int getGirth(const vector<vector<vector<int> > >& a, const vector<vector<int> >&
             return g;
     }
     cerr << "girth >= 1000\n";
-    return (1 << 31) - 1;
+    return (1 << 31) ;
 }
 
 
@@ -297,4 +298,3 @@ void eprint(const vector<vector<vector<int> > >& a) {
         cerr << endl;
     }
 }
-
