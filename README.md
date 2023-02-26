@@ -112,7 +112,21 @@ For Windows: compile by MS VS 2015 project at 'simulatedAnnealingEMD' folder. Wi
 
 For EMD Spectrum calculation of QC-LDPC Code built by the simulated annealing method (or any othen method to compare cycle properties)  use  https://github.com/Lcrypto/EMD-Spectrum-LDPC .
 
-For the QC MET-LDPC codes from above example 16	6	500  EMD Spectrum when evaluating the spectrum up to cycles of length twelve -upperGirth 10
+For the QC MET-LDPC codes from above example, EMD Spectrum when evaluating the spectrum up to cycles of length twelve -upperGirth 10
+
+*16	6	500*
+
+*440	-1	-1	-1	-1	0	-1	258	-1	203	0	-1	237	-1	-1	329&215*
+
+*53	75	-1	-1	-1	-1	-1	95	0	-1	-1	443	-1	0	238	284&257*
+
+*-1	104	363	-1	-1	-1	-1	67	-1	466	-1	5	-1	174	-1	425*
+
+*-1	-1	265	249	-1	-1	363	-1	59	-1	392	-1	-1	324	119	488*
+
+*-1	-1	-1	260	64	-1	429	-1	-1	383	402	-1	421	-1	348	97&222*
+
+*-1	-1	-1	-1	429	480	86	-1	234	-1	-1	114	41	-1	-1	392&402*
 
 girth = 8	31000 cycles, cycle = 10	419000 cycles
 
