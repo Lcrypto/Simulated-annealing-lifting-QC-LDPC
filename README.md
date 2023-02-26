@@ -110,7 +110,7 @@ For Linux: compile source code from 'linux' folder by 'run.sh' compile script.
 For Windows: compile by MS VS 2015 project at 'simulatedAnnealingEMD' folder. Windows binary file, and shell scripts to run examples of lifting at folder 'simulatedAnnealingEMD/x64/Release'. If you not install MS VS 2015 to run binary file simulatedAnnealingEMD.exe, don't forget to download and install redistributed kit from https://www.microsoft.com/en-us/download/details.aspx?id=48145.
 
 
-For EMD Spectrum calculation of QC-LDPC Code built by the simulated annealing method  use  https://github.com/Lcrypto/EMD-Spectrum-LDPC .
+For EMD Spectrum calculation of QC-LDPC Code built by the simulated annealing method (or any othen method to compare cycle properties)  use  https://github.com/Lcrypto/EMD-Spectrum-LDPC .
 
 For the QC MET-LDPC codes from above example 16	6	500  EMD Spectrum when evaluating the spectrum up to cycles of length twelve -upperGirth 10
 
