@@ -110,7 +110,11 @@ For Linux: compile source code from 'linux' folder by 'run.sh' compile script.
 For Windows: compile by MS VS 2015 project at 'simulatedAnnealingEMD' folder. Windows binary file, and shell scripts to run examples of lifting at folder 'simulatedAnnealingEMD/x64/Release'. If you not install MS VS 2015 to run binary file simulatedAnnealingEMD.exe, don't forget to download and install redistributed kit from https://www.microsoft.com/en-us/download/details.aspx?id=48145.
 
 
-For EMD Spectrum calculation of QC-LDPC Code built by the simulatedAnnealing method  use  https://github.com/Lcrypto/EMD-Spectrum-LDPC
+For EMD Spectrum calculation of QC-LDPC Code built by the simulated annealing method  use  https://github.com/Lcrypto/EMD-Spectrum-LDPC .
+
+
+
+
 
 
 P.S. Compare Simulated Annealing lifting for 8 girth with method from paper "A. Kharin, A. Dryakhlov, E. Mirokhin, K. Zavertkin, A. Ovinnikov and E. Likhobabin, "An Approach to the Generation of Regular QC-LDPC Codes with Girth 8," 2020 9th Mediterranean Conference on Embedded Computing (MECO), Budva, Montenegro, 2020, pp. 1-4".
