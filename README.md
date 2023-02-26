@@ -114,17 +114,18 @@ For EMD Spectrum calculation of QC-LDPC Code built by the simulated annealing me
 
 For the QC MET-LDPC codes from above 16	6	500  EMD Spectrum when evaluating the spectrum up to cycles of length twelve -upperGirth 12  
 
-*girth = 8	31000 cycles
-EMD	Number
-3	1000
-4	500
-5	500
-6	3000
-7	2000
-8	1000
-9	1000
-10	2500
-11	2000
+girth = 8	31000 cycles
+
+|EMD|	Number|
+|3|	1000|
+|4|	500|
+|5|	500|
+|6|	3000|
+|7|	2000|
+|8|	1000|
+|9|	1000|
+|10|	2500|
+|11|	2000|
 12	4000
 13	1500
 14	1000
