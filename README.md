@@ -188,7 +188,7 @@ The SA method was used to construct a 3x12 regular code with girth 8 in less tha
 Overall, the SA lifting method remains one of the best QC-LDPC protograph lifting methods published for breaking "flat" models (pure girth and girth+EMD maximization) of Trapping sets.
 
 
-If you need to construct regular codes with maximal girth, consider using the kroneker-based approach results from Alireza Tasdighi and Emmanuel Boutillon's paper titled "Integer Ring Sieve for Constructing Compact QC-LDPC Codes with Girths 8, 10, and 12.," which has been submitted to IEEE Transactions on Information Theory in February 2021. However, it is important to remember that maximum girth does not necessarily mean good Trapping set and low weight codeword spectrum (good EMD spectrum) performance/complexity, especially when compared to irregular LDPC codes which allow for trade-offs between waterfall and error-floor.
+If you need to construct regular codes with maximal girth, consider using the kroneker-based approach results from Alireza Tasdighi and Emmanuel Boutillon's paper titled "Integer Ring Sieve for Constructing Compact QC-LDPC Codes with Girths 8, 10, and 12.," which has been submitted to IEEE Transactions on Information Theory in February 2021 ( http://www-labsticc.univ-ubs.fr/~boutillon/ldpc/ldpc.htm ). However, it is important to remember that maximum girth does not necessarily mean good Trapping set and low weight codeword spectrum (good EMD spectrum) performance/complexity, especially when compared to irregular LDPC codes which allow for trade-offs between waterfall and error-floor.
 
 
 With BR,
