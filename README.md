@@ -182,18 +182,13 @@ Table III. Minimal value of circulant for regular mother matrix with row number 
 
 
 
-SA method constructed 3x12 regular code with girth 8 less than one hour on multitread (Amd Ryzen 3950x) and less than 21 hours on 1 thread (Intel i7700k), file "12_3_42girth8upGirth6emd0seed11protograph_from_proto.txt_matrix629558.txt", "12_3_42girth8upGirth6emd0seed333protograph_from_proto.txt_matrix828012.txt",  attached to github. 
+The SA method was used to construct a 3x12 regular code with girth 8 in less than an hour on a multitread (AMD Ryzen 3950X) and less than 21 hours on a single thread (Intel i7700K). The files "12_3_42girth8upGirth6emd0seed11protograph_from_proto.txt_matrix629558.txt" and "12_3_42girth8upGirth6emd0seed333protograph_from_proto.txt_matrix828012.txt" are attached to GitHub.
 
 
+Overall, the SA lifting method remains one of the best QC-LDPC protograph lifting methods published for breaking "flat" models (pure girth and girth+EMD maximization) of Trapping sets.
 
 
-
-Summary: SA lifting method still one of the best published QC-LDPC protograph lifting method from "flat" model(pure girth and girth+EMD maximization) of Trapping sets breaking.
-
-
-If you need to construct regular codes with maximal girth use kroneker based approach results from
-Alireza Tasdighi, Emmanuel Boutillon, "Integer Ring Sieve for Constructing Compact QC-LDPC Codes with Girths 8, 10, and 12.", Submitted to IEEE Trans. on Information Theory, Feb. 2021. http://www-labsticc.univ-ubs.fr/~boutillon/ldpc/ldpc.htm
-but alwayse remember max girth not mean good Trapping set and low weight codeword Spectrum (good EMD Spectrum) - performance/complexity especialy compare to irregular LDPC which allow trade-off between waterfall and error-floor.
+If you need to construct regular codes with maximal girth, consider using the kroneker-based approach results from Alireza Tasdighi and Emmanuel Boutillon's paper titled "Integer Ring Sieve for Constructing Compact QC-LDPC Codes with Girths 8, 10, and 12.," which has been submitted to IEEE Transactions on Information Theory in February 2021. However, it is important to remember that maximum girth does not necessarily mean good Trapping set and low weight codeword spectrum (good EMD spectrum) performance/complexity, especially when compared to irregular LDPC codes which allow for trade-offs between waterfall and error-floor.
 
 
 With BR,
