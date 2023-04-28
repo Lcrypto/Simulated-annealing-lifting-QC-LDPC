@@ -1,12 +1,11 @@
 # Simulated Annealing lifting for QC-LDPC Codes and MET QC-LDPC Codes
-Source code for article
-Vasiliy Usatyuk und Ilya Vorobyev 
-Simulated Annealing Method for Construction of High-Girth QC-LDPC Codes
- 41st International Conference on Telecommunications and Signal Processing (TSP) 2018, 4-6 Jule, Athens, Greece.
- 
-It construct regular and irregular QC-LDPC codes with  multiple edge type circulants from protograph with required minimal EMD value. Short review (ENG) about Code on the Graph construction related problem http://www.mathnet.ru/php/presentation.phtml?option_lang=rus&presentid=17899.
- 
-Simulated annealing superior all currently published algoriths (PEG,QC-PEG, Fossorier-Declercq-Vasic Improved PEG, Yedidia Hill-Climbing) and  for construction QC-LDPC codes from capability of cycles broken, for detail read paper https://ieeexplore.ieee.org/document/8441303/  https://www.researchgate.net/publication/327194285_Simulated_Annealing_Method_for_Construction_of_High-Girth_QC-LDPC_Codes. With combination of code distance based sieving (for short and moderate code length) it allow to contruct QC codes with very good (probably best for current state of art) coding gain.
+The source code for the article "Simulated Annealing Method for Construction of High-Girth QC-LDPC Codes" by Vasiliy Usatyuk and Ilya Vorobyev, presented at the 41st International Conference on Telecommunications and Signal Processing (TSP) in Athens, Greece in July 2018, is now available. This code can be used to construct regular and irregular QC-LDPC codes with multiple edge type circulants from a protograph with the required minimal EMD value.
+
+A short review about the related problem of Code on the Graph construction is available in English at http://www.mathnet.ru/php/presentation.phtml?option_lang=rus&presentid=17899.
+
+This method outperforms all currently published algorithms such as PEG, QC-PEG, Fossorier-Declercq-Vasic Improved PEG, and Yedidia Hill-Climbing for constructing QC-LDPC codes from capability of cycles broken. For more details, please refer to the paper available at https://ieeexplore.ieee.org/document/8441303/ or https://www.researchgate.net/publication/327194285_Simulated_Annealing_Method_for_Construction_of_High-Girth_QC-LDPC_Codes.
+
+In addition, when combined with code distance-based sieving (for short and moderate code lengths), this method allows for the construction of QC codes with very high coding gain, which is arguably the best for the current state-of-the-art.
 
 
 ![alt text](https://github.com/Lcrypto/Simulated-annealing-lifting-QC-LDPC/blob/master/Figure.png)
