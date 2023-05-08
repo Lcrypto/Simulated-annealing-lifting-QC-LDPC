@@ -191,6 +191,19 @@ Overall, the SA lifting method remains one of the best QC-LDPC protograph liftin
 If you need to construct regular codes with maximal girth, consider using the kroneker-based approach results from Alireza Tasdighi and Emmanuel Boutillon's paper titled "Integer Ring Sieve for Constructing Compact QC-LDPC Codes with Girths 8, 10, and 12.," which has been submitted to IEEE Transactions on Information Theory in February 2021 ( http://www-labsticc.univ-ubs.fr/~boutillon/ldpc/ldpc.htm ). However, it is important to remember that maximum girth does not necessarily mean good Trapping set and low weight codeword spectrum (good EMD spectrum) performance/complexity, especially when compared to irregular LDPC codes which allow for trade-offs between waterfall and error-floor.
 
 
+
+It is strongly recommended to improve not only the EMD spectrum but also the code (Hamming) distance, see https://github.com/Lcrypto/Length-und-Rate-adaptive-code . 
+
+
+
+In practice, we use the Lattice-based method (Kannan embeding, SVP, SBP) to achieve this goal, but you can use Dumer or Brouwer-Zimmerman implementation from GAP/MAGMA.
+According to our (Usatyuk Vasiliy) results in the code distance challenge at https://decodingchallenge.org/low-weight/, Lattice methods are superior:
+![alt text](https://github.com/Lcrypto/Length-und-Rate-adaptive-code/blob/master/Code_distance_challenge.png)
+
+
+
+
+
 With BR,
 Vasiliy.
 
