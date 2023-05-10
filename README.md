@@ -196,7 +196,7 @@ It is strongly recommended to improve not only the EMD spectrum but also the cod
 
 
 
-To achieve this goal, we implement the Lattice-based method in practice using the Kannan embedding, SVP, and SBP (Block Korkin-Zolotarev, BKZ) techniques. However, it is also possible to use the Dumer or Brouwer-Zimmerman algorithms implementation from GAP/MAGMA.
+To achieve this goal, we implement the Lattice-based method in practice using the Kannan embedding, SVP(Shortest Vector Problem), and SBP (Block Korkin-Zolotarev, BKZ for solution Shortest Basis Problem) techniques. However, it is also possible to use the Dumer or Brouwer-Zimmerman algorithms implementation from GAP/MAGMA.
 According to our (Usatyuk Vasiliy) results in the code distance challenge at https://decodingchallenge.org/low-weight/, Lattice methods are superior:
 ![alt text](https://github.com/Lcrypto/Length-und-Rate-adaptive-code/blob/master/Code_distance_challenge.png)
 
