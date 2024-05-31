@@ -203,7 +203,7 @@ According to our (Usatyuk Vasiliy) results in the code distance challenge at htt
 Lattice method for code distance estimation:
 
 
-1.V. S. Usatyuk and S. I. Egorov, "Heuristic Number Geometry Method for Finding Low-Weight Codeword in Linear Block Codes," 2024 26th International Conference on Digital Signal Processing and its Applications (DSPA), Moscow, Russian Federation, 2024, pp. 1-6  https://ieeexplore.ieee.org/document/10510086
+1.  Usatyuk V. S., Egorov S. I., "Heuristic Number Geometry Method for Finding Low-Weight Codeword in Linear Block Codes," 2024 26th International Conference on Digital Signal Processing and its Applications (DSPA), Moscow, Russian Federation, 2024, pp. 1-6  https://ieeexplore.ieee.org/document/10510086
 
 
 
