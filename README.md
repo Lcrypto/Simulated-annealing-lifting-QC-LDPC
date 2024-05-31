@@ -200,7 +200,20 @@ To achieve this goal, we implement the Lattice-based method in practice using th
 According to our (Usatyuk Vasiliy) results in the code distance challenge at https://decodingchallenge.org/low-weight/, Lattice methods are superior:
 ![alt text](https://github.com/Lcrypto/Length-und-Rate-adaptive-code/blob/master/Code_distance_challenge.png)
 
+Lattice method for code distance estimation:
 
+
+1.V. S. Usatyuk and S. I. Egorov, "Heuristic Number Geometry Method for Finding Low-Weight Codeword in Linear Block Codes," 2024 26th International Conference on Digital Signal Processing and its Applications (DSPA), Moscow, Russian Federation, 2024, pp. 1-6  https://ieeexplore.ieee.org/document/10510086
+
+
+
+2.  Usatyuk V.S., E. Sergey and G. Svistunov, "Construction of Length and Rate Adaptive MET QC-LDPC Codes by Cyclic Group Decomposition," 2019 IEEE East-West Design & Test Symposium (EWDTS), Batumi, Georgia, 2019, pp. 1-5 https://ieeexplore.ieee.org/document/8884427
+
+   
+3. Usatyuk V.S., Yegorov S.I. Construction of quasi-cyclic non-binary LDPC codes, based on joint optimization of distance properties and connection spectra of codes. Telecommunications and Radio Engineering №8, 2016, pp. 32-40
+
+   
+4. Usatjuk V.S. Computing the minimum distance of nonbinary ldpc codes using block korkin-zolotarev method. Proceedings of the Southwest State University Series: Control, Computer Engineering, Information Science. Medical Instruments Engineering. - 2015. - № 3 (16). - pp. 76-85.
 
 
 
